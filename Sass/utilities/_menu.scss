@@ -1,0 +1,15 @@
+.food_menu{
+    h3{
+        @include font_style(22px, 500);
+        margin-top: 20px;
+    }
+    .menu{
+        list-style: none;
+        &_item{
+            @include flex(flex-start,space-between );
+            color: #707070;
+            line-height: 50px;
+        }
+        
+       }
+}

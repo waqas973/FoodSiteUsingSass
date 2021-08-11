@@ -1,0 +1,14 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import './utilities/variables';
+@import   './utilities/function';
+@import './utilities//header';
+@import './utilities/about';
+@import './utilities/offer';
+@import './utilities/menu';
+@import './utilities/testtimonial';
+@import './utilities/footer';
